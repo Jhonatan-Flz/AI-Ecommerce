@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI-Ecommerce | Semantic Shopping Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Left Vertical Panel: Traditional Filters + Corner AI Chat -->
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <h1>AI-Ecommerce</h1>
+      </div>
+
+      <!-- Traditional Search & Filters -->
+      <div class="filter-section">
+        <div class="section-header">
+          <h2>Traditional Search</h2>
+          <button id="reset-btn" class="text-btn" type="button">Reset</button>
+        </div>
+
+        <div class="control-group">
+          <label for="keyword-input">Keywords</label>
+          <input
+            type="text"
+            id="keyword-input"
+            placeholder="e.g. lamp, mug, headphones..."
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="control-group">
+          <label for="category-select">Category</label>
+          <select id="category-select">
+            <option value="all">All Categories</option>
+            <option value="Workspace">Workspace</option>
+            <option value="Audio">Audio</option>
+            <option value="Lifestyle">Lifestyle & Travel</option>
+            <option value="Lighting">Lighting</option>
+          </select>
+        </div>
+
+        <div class="control-group">
+          <div class="range-header">
+            <label for="price-range">Max Price</label>
+            <span id="price-value">$250</span>
+          </div>
+          <input type="range" id="price-range" min="15" max="250" step="5" value="250" />
+        </div>
+
+        <div class="control-group">
+          <label>Seller Channel</label>
+          <div class="checkbox-list">
+            <label class="checkbox-item">
+              <input type="checkbox" value="official" class="channel-checkbox" checked />
+              <span>Official Stock</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="marketplace" class="channel-checkbox" checked />
+              <span>Marketplace</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" value="affiliate" class="channel-checkbox" checked />
+              <span>Affiliate Partner</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Corner AI Assistant Box -->
+      <div class="ai-corner-box">
+        <div class="ai-header">
+          <span class="ai-badge">AI Advisor</span>
+          <span class="ai-status" title="Frontend Preview Mode">Preview Mode</span>
+        </div>
+
+        <div id="ai-reply" class="ai-message">
+          Describe what you need, your style, or a problem to solve—no exact keywords required.
+        </div>
+
+        <div class="quick-prompts">
+          <button type="button" class="prompt-chip" data-prompt="Cozy light for studying at night">
+            Night study light
+          </button>
+          <button type="button" class="prompt-chip" data-prompt="Coffee gear for someone who travels">
+            Travel coffee
+          </button>
+        </div>
+
+        <form id="ai-form" class="ai-input-wrapper">
+          <textarea
+            id="ai-input"
+            rows="2"
+            placeholder="Ask the AI assistant..."
+          ></textarea>
+          <button type="submit" id="ai-submit-btn" aria-label="Send prompt">
+            Ask
+          </button>
+        </form>
+      </div>
+    </aside>
+
+    <!-- Right Workspace: Results & Recommendations -->
+    <main class="workspace">
+      <header class="workspace-header">
+        <div>
+          <h2 id="results-title">Catalog Results</h2>
+          <p id="results-subtitle" class="subtitle">Showing all available items</p>
+        </div>
+
+        <div id="active-ai-pill" class="active-query-pill hidden">
+          <span id="active-ai-text"></span>
+          <button id="clear-ai-btn" type="button" aria-label="Clear AI search">&times;</button>
+        </div>
+      </header>
+
+      <!-- Main Product Results Grid -->
+      <section aria-label="Search results">
+        <div id="results-grid" class="products-grid"></div>
+      </section>
+
+      <!-- Algorithmic Recommendations & Cross-Selling Section -->
+      <section class="recommendations-section" aria-label="Recommendations">
+        <div class="rec-header">
+          <div>
+            <h3>Recommended for You</h3>
+            <p class="subtitle">Curated from your browsing context and compatible items</p>
+          </div>
+        </div>
+        <div id="recommendations-grid" class="recommendations-grid"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Minimalist Product Detail & Cross-Sell Modal -->
+  <div id="product-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button id="close-modal-btn" class="modal-close" type="button">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
