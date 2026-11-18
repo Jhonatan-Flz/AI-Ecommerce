@@ -43,6 +43,8 @@
             <option value="Audio">Audio</option>
             <option value="Lifestyle">Lifestyle & Travel</option>
             <option value="Lighting">Lighting</option>
+            <option value="Smart Home">Smart Home</option>
+            <option value="Fitness & Health">Fitness & Health</option>
           </select>
         </div>
 
@@ -77,20 +79,11 @@
       <div class="ai-corner-box">
         <div class="ai-header">
           <span class="ai-badge">AI Advisor</span>
-          <span class="ai-status" title="Frontend Preview Mode">Preview Mode</span>
+          <span id="ai-status" class="ai-status">Connecting...</span>
         </div>
 
         <div id="ai-reply" class="ai-message">
           Describe what you need, your style, or a problem to solve—no exact keywords required.
-        </div>
-
-        <div class="quick-prompts">
-          <button type="button" class="prompt-chip" data-prompt="Cozy light for studying at night">
-            Night study light
-          </button>
-          <button type="button" class="prompt-chip" data-prompt="Coffee gear for someone who travels">
-            Travel coffee
-          </button>
         </div>
 
         <form id="ai-form" class="ai-input-wrapper">

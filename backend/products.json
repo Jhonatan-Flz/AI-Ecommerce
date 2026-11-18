@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": "Warm Minimalist Desk Lamp",
+    "category": "Lighting",
+    "price": 42,
+    "channel": "official",
+    "description": "Adjustable warm LED desk lamp engineered for late-night studying, reading without eye strain, and clean minimalist workspaces.",
+    "tags": ["cozy", "study", "night", "minimalist", "desk", "light", "warm", "reading"],
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Magnetic Under-Desk Cable Tray",
+    "category": "Workspace",
+    "price": 24,
+    "channel": "marketplace",
+    "description": "Steel cable management tray with magnetic clips to hide power strips, chargers, and loose wires for a clutter-free setup.",
+    "tags": ["setup", "cables", "wires", "clean", "organize", "desk", "minimalist"],
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 3,
+    "title": "Portable Pour-Over Travel Coffee Kit",
+    "category": "Lifestyle",
+    "price": 58,
+    "channel": "affiliate",
+    "description": "Compact insulated dripper and stainless steel tumbler designed for commuters, frequent flyers, camping, and hotel mornings.",
+    "tags": ["coffee", "travel", "gift", "portable", "commute", "morning", "espresso"],
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 4,
+    "title": "ANC Wireless Studio Headphones",
+    "category": "Audio",
+    "price": 165,
+    "channel": "official",
+    "description": "Active noise-canceling over-ear headphones built for deep concentration in noisy cafes, libraries, flights, or open offices.",
+    "tags": ["focus", "study", "quiet", "music", "work", "noise", "cafe", "travel"],
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 5,
+    "title": "Solid Walnut Monitor Riser",
+    "category": "Workspace",
+    "price": 68,
+    "channel": "marketplace",
+    "description": "Ergonomic wooden shelf that elevates monitors to eye level to reduce neck fatigue while storing keyboards and notebooks underneath.",
+    "tags": ["ergonomic", "desk", "wood", "aesthetic", "posture", "setup", "neck"],
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 6,
+    "title": "Weatherproof Origami Tech Pouch",
+    "category": "Lifestyle",
+    "price": 35,
+    "channel": "affiliate",
+    "description": "Water-resistant organizer for laptop chargers, adapters, SSDs, and small everyday carry essentials when traveling light.",
+    "tags": ["travel", "organize", "bag", "cables", "gift", "portable", "edc"],
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 7,
+    "title": "Monitor Light Bar with Auto-Dimming",
+    "category": "Lighting",
+    "price": 54,
+    "channel": "official",
+    "description": "Asymmetric optical LED bar that clips onto your screen and illuminates only your desk surface without causing screen glare.",
+    "tags": ["glare", "monitor", "coding", "night", "desk", "light", "eyes"],
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 8,
+    "title": "Low-Profile Tactile Mechanical Keyboard",
+    "category": "Workspace",
+    "price": 115,
+    "channel": "official",
+    "description": "Compact wireless mechanical keyboard with quiet tactile switches ideal for fast programming, writing, and multi-device setups.",
+    "tags": ["typing", "coding", "quiet", "wireless", "desk", "productivity"],
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 9,
+    "title": "Open-Ear Bone Conduction Earphones",
+    "category": "Audio",
+    "price": 89,
+    "channel": "affiliate",
+    "description": "Sweatproof lightweight sport earphones that let you hear podcasts and traffic awareness safely during outdoor running or cycling.",
+    "tags": ["running", "gym", "outdoor", "sport", "workout", "safe", "sweatproof"],
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 10,
+    "title": "Ambient Sunset & RGB Corner Lamp",
+    "category": "Lighting",
+    "price": 38,
+    "channel": "marketplace",
+    "description": "Smart floor mood light that projects warm sunset tones or subtle ambient colors to transform bedroom and gaming room aesthetics.",
+    "tags": ["aesthetic", "mood", "room", "cozy", "gaming", "relax", "decor"],
+    "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 11,
+    "title": "Aluminum Folding Laptop Stand",
+    "category": "Workspace",
+    "price": 39,
+    "channel": "official",
+    "description": "Portable ventilated laptop riser that raises your notebook screen to eye height to relieve neck and shoulder strain anywhere.",
+    "tags": ["laptop", "neck", "posture", "ergonomic", "portable", "stand", "desk"],
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 12,
+    "title": "Vertical Ergonomic Wireless Mouse",
+    "category": "Workspace",
+    "price": 49,
+    "channel": "marketplace",
+    "description": "Handshake-angle wireless mouse designed to prevent wrist pronation and forearm fatigue during long coding or design sessions.",
+    "tags": ["wrist", "pain", "ergonomic", "mouse", "coding", "comfort", "office"],
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 13,
+    "title": "Compact ANC True Wireless Earbuds",
+    "category": "Audio",
+    "price": 119,
+    "channel": "official",
+    "description": "Pocket-sized noise-canceling earbuds with transparency mode for blocking subway chatter, airplane hum, and busy coffee shops.",
+    "tags": ["noise", "commute", "cafe", "quiet", "travel", "pocket", "earbuds"],
+    "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 14,
+    "title": "USB-C Condenser Podcast Microphone",
+    "category": "Audio",
+    "price": 79,
+    "channel": "marketplace",
+    "description": "Cardioid desktop microphone with pop filter for crystal-clear remote meetings, voiceovers, streaming, and online classes.",
+    "tags": ["calls", "meetings", "voice", "streaming", "podcast", "clear", "desk"],
+    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 15,
+    "title": "Smart Wi-Fi LED Light Strip (5m)",
+    "category": "Smart Home",
+    "price": 32,
+    "channel": "affiliate",
+    "description": "Adhesive color-changing backlight strip for behind monitors, TVs, or bed frames controlled via voice assistant or mobile app.",
+    "tags": ["rgb", "gaming", "backlight", "cozy", "bedroom", "smart", "aesthetic"],
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 16,
+    "title": "Ultrasonic Essential Oil Diffuser & Humidifier",
+    "category": "Smart Home",
+    "price": 44,
+    "channel": "marketplace",
+    "description": "Whisper-quiet aromatherapy mist diffuser with warm night light that adds moisture to dry air-conditioned rooms and helps you unwind.",
+    "tags": ["relax", "sleep", "bedroom", "cozy", "aroma", "quiet", "air"],
+    "image": "https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 17,
+    "title": "Smart Plug Energy Monitor (4-Pack)",
+    "category": "Smart Home",
+    "price": 29,
+    "channel": "official",
+    "description": "Wi-Fi outlet timers that automate lamps and coffee makers on a schedule while tracking real-time electricity consumption.",
+    "tags": ["automation", "schedule", "energy", "smart", "home", "timer"],
+    "image": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 18,
+    "title": "HEPA Desktop Air Purifier",
+    "category": "Smart Home",
+    "price": 95,
+    "channel": "affiliate",
+    "description": "Compact silent air cleaner that captures dust, pollen, and pet dander for allergy relief in bedrooms and home offices.",
+    "tags": ["allergies", "dust", "clean", "air", "bedroom", "quiet", "health"],
+    "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 19,
+    "title": "Vacuum Insulated Leakproof Flask (750ml)",
+    "category": "Lifestyle",
+    "price": 34,
+    "channel": "official",
+    "description": "Double-wall stainless steel bottle that keeps coffee hot for 12 hours or water ice-cold during long hikes, commutes, and gym days.",
+    "tags": ["coffee", "water", "travel", "gym", "commute", "bottle", "hot", "cold"],
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 20,
+    "title": "Carry-On Expandable Tech Backpack",
+    "category": "Lifestyle",
+    "price": 110,
+    "channel": "marketplace",
+    "description": "Water-repellent 28L travel backpack with padded 16-inch laptop sleeve, luggage strap, and anti-theft hidden passport pocket.",
+    "tags": ["travel", "laptop", "flight", "commute", "bag", "work", "organized"],
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 21,
+    "title": "Rechargeable Book Reading Clip Light",
+    "category": "Lighting",
+    "price": 19,
+    "channel": "affiliate",
+    "description": "Lightweight amber-light clip lamp for reading paperbacks in bed at night without waking up a sleeping partner.",
+    "tags": ["reading", "book", "bed", "night", "warm", "portable", "gift"],
+    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 22,
+    "title": "Memory Foam Lumbar & Seat Cushion Set",
+    "category": "Fitness & Health",
+    "price": 52,
+    "channel": "marketplace",
+    "description": "Orthopedic chair support pillows that relieve lower back and tailbone pressure during 8-hour desk work or gaming marathons.",
+    "tags": ["back", "pain", "posture", "chair", "sitting", "ergonomic", "comfort"],
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 23,
+    "title": "Percussion Deep-Tissue Massage Gun",
+    "category": "Fitness & Health",
+    "price": 84,
+    "channel": "official",
+    "description": "Quiet handheld muscle massager with 4 attachment heads to release neck, shoulder, and leg tension after workouts or long desk days.",
+    "tags": ["neck", "muscle", "pain", "recovery", "gym", "relax", "tension"],
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 24,
+    "title": "Blue-Light Blocking Computer Glasses",
+    "category": "Fitness & Health",
+    "price": 28,
+    "channel": "affiliate",
+    "description": "Lightweight anti-glare eyewear that reduces digital eye fatigue and headaches caused by late-night monitor and phone screens.",
+    "tags": ["eyes", "screen", "night", "coding", "headache", "glare", "study"],
+    "image": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=600&q=80"
+  }
+]

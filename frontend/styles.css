@@ -213,27 +213,6 @@ input[type="range"] {
   border: 1px solid #e0e7ff;
 }
 
-.quick-prompts {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-}
-
-.prompt-chip {
-  font-size: 0.72rem;
-  background: var(--bg-surface);
-  color: var(--accent-ai);
-  border: 1px solid #c7d2fe;
-  border-radius: 999px;
-  padding: 0.22rem 0.6rem;
-  cursor: pointer;
-  transition: background 0.15s ease;
-}
-
-.prompt-chip:hover {
-  background: #e0e7ff;
-}
-
 .ai-input-wrapper {
   display: flex;
   gap: 0.4rem;
